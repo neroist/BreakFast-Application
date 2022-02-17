@@ -1,2 +1,2 @@
-# BreakFast-Application
-A GUI application for getting breakfast recipes. Made with ❤️ with the BreakFast API, Python, and Pyside6.
+# BreakFast Application
+A GUI application for getting breakfast recipes. Made with ❤️ with Python, the [BreakFast API](https://github.com/MariiaSizova/breakfastapi), and Pyside6.
