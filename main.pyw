@@ -106,7 +106,6 @@ class BreakFastWindow(QMainWindow):
 
         self.directionsTitleLabel = QLabel(self.tr(u"Directions:"), self.recipeScrollArea)
         self.directionsTitleLabel.setObjectName(u"directionsTitleLabel")
-        self.directionsTitleLabel.setTextInteractionFlags(Qt.TextBrowserInteraction)
         self.directionsTitleLabel.setFont(font)
         self.verticalLayout_2.addWidget(self.directionsTitleLabel)
 
