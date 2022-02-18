@@ -1,0 +1,6 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+	<qresource>
+		<file alias="breakfast.ico">assets/images/breakfast.ico</file>
+	</qresource>
+</RCC>
