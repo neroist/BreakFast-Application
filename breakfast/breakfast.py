@@ -20,6 +20,7 @@ class BreakFast(object):
 	
 	def copy(self):
 		z = self.__dict__
+		z["total_duration"] = z["duration"]
 		return self.from_json(z)
 	
 	@classmethod
