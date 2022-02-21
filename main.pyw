@@ -156,7 +156,8 @@ if __name__ == '__main__':
 	import ctypes
 	
 	ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID(
-		"alice.BreakfastApp")  # So the window icon shows up on the taskbar
+		"alice.BreakfastApp"
+	)  # So the window icon shows up on the taskbar
 	
 	app = QApplication(sys.argv)
 	window = BreakFastWindow()
